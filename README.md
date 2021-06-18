@@ -32,6 +32,10 @@ In players_raw.csv, element_type is the field that corresponds to the position.
 3 = MID
 4 = FWD
 
+### Errata
+
++ GW35 expected points data is wrong (all values are 0).
+
 ### Contributing
 
 + If you feel like there is some data that is missing which you would like to see, then please feel free to create a PR or create an issue highlighting what is missing and what you would like to be added
@@ -53,6 +57,10 @@ python teams_scraper.py <team_id>
 This will create a new folder called "team_<team_id>_data18-19" with individual files of all the important data
 
 # Notable Usages of this Repository
+
++ [Hindsight Optimization for FPL by Sertalp B. Cay](https://alpscode.com/blog/hindsight-optimization/)
+
++ [Data Science to get top 1% on return to FPL by James Asher](https://medium.com/the-sports-scientist/how-i-used-data-science-to-get-into-the-top-1-on-the-return-to-fantasy-premier-league-98829d4f65e5)
 
 + [FPLDASH: A customizable Fantasy Premier League Dashboard by Jin Hyun Cheong](http://www.fpldash.com)
 
